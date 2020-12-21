@@ -1,11 +1,14 @@
 ## Calculator
 
 Calculator is a Python package that provides formulas for basic mathmetic computations such as:
-* `add`
-* `subtract`
-* `divide`
-* `multiply`
-* `reset`
+
+| Formula    | Description | 
+|------------|-------------|
+| `add`      |             |
+| `subtract` |             |
+| `divide`   |             |
+| `multiply` |             |
+| `root`     |             |
 
 
 Table of content
