@@ -4,7 +4,7 @@ Calculator is a Python package that provides formulas for basic mathmetic comput
 
 | Formula    | Description | 
 |------------|-------------|
-| `add`      |             |
+| `add`      |     function|
 | `subtract` |             |
 | `divide`   |             |
 | `multiply` |             |
