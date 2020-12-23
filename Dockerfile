@@ -5,6 +5,6 @@ RUN python -m venv $VIRTUAL_ENV
 ENV PATH "$VIRTUAL_ENV/bin:$PATH"
 
 
-RUN pip install git+https://github.com/winckles/calculator
+RUN pip install git+https://github.com/winckles/calculator_package.git
 
-CMD [ "python", "./calculator/calculator.py" ]
+CMD [ "python", "./calculator/calculator_package.py" ]
