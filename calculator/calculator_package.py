@@ -43,7 +43,7 @@ class Calculator:
 
     def reset_memory(self) -> str:
         """ Checks memory and sets it back to 0 """
-        if self.__memory is not 0:
+        if self.__memory != 0:
             self.__memory = 0
         return f"The number in memory is now {self.__memory}"
 

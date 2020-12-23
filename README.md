@@ -4,11 +4,13 @@ Calculator is a Python package that provides formulas for basic mathmetic comput
 
 | Formula    | Description | 
 |------------|-------------|
-| `add`      |     function|
-| `subtract` |             |
-| `divide`   |             |
-| `multiply` |             |
-| `root`     |             |
+|`check_memory` | Check the number in memory |
+|`reset_memory`| Checks memory and sets it back to 0|
+| `add`      | Returns the number in memory added by the provided number|
+| `subtract` | Returns the number in memory subtracted by the provided number            |
+| `divide`   |  Returns the number in memory multiplied by the provided number           |
+| `multiply` |  Returns the number in memory divided by the provided number. The provided number can't be 0           |
+| `take_root`     |  Returns the nth root of the number in memory. The provided number can't be 0           |
 
 
 Table of content
@@ -21,14 +23,43 @@ Table of content
 
 ### Installation
 
-Go to the file `212.ipynb`, from the `runtime` dropdown select `run all` and enjoy.
+To run this calculator package please take a look at the following instructions
+#### Python
+1. Install the package
+```
+pip install git+https://github.com/winckles/calculator_package.git`
+```
+2. Import the class
+```
+from calculator_package import Calculator
+```
+3. Create an object and use the functions
+```
+calculator = Calculator()
+calculator.add(5)
+```
+#### Docker
+1. Install the package
+```
+pip install git+https://github.com/winckles/calculator_package.git`
+```
+2. Import the class
+```
+from calculator_package import Calculator
+```
+3. Create an object and use the functions
+```
+calculator = Calculator()
+calculator.add(5)
+```
 
 ### Getting Started
-More explanation on arithmetic can be found [here](https://courses.lumenlearning.com/boundless-algebra/chapter/introduction-to-arithmetic-operations/#:~:text=Key%20Points-,The%20basic%20arithmetic%20operations%20for%20real%20numbers%20are%20addition%2C%20subtraction,%2C%20associative%2C%20and%20distributive%20properties)
+This calculator package let's you perform basic arithmetic functions, and the calculator stores the result in its memory. More explanation on arithmetic can be found [here](https://courses.lumenlearning.com/boundless-algebra/chapter/introduction-to-arithmetic-operations/#:~:text=Key%20Points-,The%20basic%20arithmetic%20operations%20for%20real%20numbers%20are%20addition%2C%20subtraction,%2C%20associative%2C%20and%20distributive%20properties)
 
 ### Technologies
-* Python version: 3
-* Pydoc version: X
+* Python 3.9
+* Pytest 6.2.1
+* Setuptools 51.1.0
 
 
 ### Contributing
