@@ -35,7 +35,7 @@ def test_divide_by_zero_error():
 
 def test_take_root():
     calc = Calculator(16)
-    assert calc.take_root(4) == 4
+    assert calc.take_root(1) == 16
 
 
 def test_take_root_by_zero_error():

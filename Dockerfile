@@ -6,5 +6,4 @@ ENV PATH "$VIRTUAL_ENV/bin:$PATH"
 
 
 RUN pip install git+https://github.com/winckles/calculator_package.git
-
 CMD [ "python" ]

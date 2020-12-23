@@ -79,5 +79,5 @@ class Calculator:
         """
         if number == 0:
             raise ZeroDivisionError
-        self.__memory ** (1 / float(number))
-        return self.__memory
+        result = self.__memory ** (1 / float(number))
+        return result
